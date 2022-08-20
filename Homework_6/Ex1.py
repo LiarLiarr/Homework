@@ -1,4 +1,4 @@
-a, b = input("Введіть два лова через пробіл: ").split(" ")
+a, b = input("Введіть два cлова через пробіл: ").split(" ")
 
 while a.isalpha() is not True or b.isalpha() is not True:
     a, b = input("Введіть два лова через пробіл: ").split(" ")
